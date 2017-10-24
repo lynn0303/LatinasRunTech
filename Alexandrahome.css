@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.header, .hero, .footer{
+  width: 100%;
+
+
+}
+.header{
+  /*background-color: #FE5F55;*/
+  height: 300px;
+  background-image: url("Images/MEXICAN_CANDY.jpg");
+  background-repeat: repeat-x;
+
+
+}
+h1{
+  font-size:60px;
+  color: black;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+ul{
+
+  text-align: center;
+}
+a{
+  text-decoration: none;
+
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  color: black;
+  text-align: center;
+  border: 2px solid black;
+
+  margin: 75px;
+}
+.hero{
+  background-color: #777DA7;
+  height: 500px;
+}
+.wrapper{
+  text-align: center;
+}
+/*how to float image "left" but still stay centered on page?*/
+img{
+  margin-top: 15px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+p{
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  color: #3E1929;
+  text-align: center;
+}
+
+
+
+.footer{
+  background-color: #94C9A9;
+  height: 30px;
+}
+
+.footer ul li{
+  padding: 7.5px;
+  font-family: "Playfair Display", serif;
+
+}
