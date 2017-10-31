@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body, html {
+    height: 100%;
+    background-color: white;
+}
+
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.header, .hero, .footer{
+  width: 100%;
+
+
+}
+.header{
+
+  height: 240px;
+  background-image: url("Images/header1.jpg");
+  background-size: cover;
+}
+
+h1{
+  font-weight: bold;
+  font-size:75px;
+  color: white;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin-bottom: 30px;
+
+}
+
+h2{
+	margin-top: 20px;
+	padding-top: 55px;
+	font-size: 50px;
+	color: #3E1929;
+	text-align: center;
+
+}
+
+h3{
+	margin-top: 20px;
+	padding-top: 55px;
+	font-weight: bold;
+	color: #3E1929;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+
+li{
+  list-style-type: none;
+  display: inline-block;
+	margin-left: 20px;
+}
+
+ul{
+
+  text-align: left;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: black;
+  background-color: none;
+  padding: 3px;
+  margin: 2px;
+
+}
+ul button:hover{
+  background-color: lightgray;
+}
+.hero{
+	margin-top: 40px;
+  background-color: white;
+  height: 500px;
+}
+
+
+img{
+  margin-top: 15px;
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+
+.body{
+	text-align: justify;
+	color: #3E1929;
+
+}
+
+
+
+	.left-box{
+		float: left;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+		margin-right: 5%;
+		margin-left: 5%;
+		/*margin: 30%;*/
+		height: 500px;
+	  width: 40%;
+	  border: 1px solid #ccc;
+		background-color: #EFEFEF;
+		text-align: center;
+
+	}
+
+	.right-box{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-right: 5%;
+		margin-left: 5%;
+		box-sizing: border-box;
+		float: left;
+		/*margin: 30%;*/
+		height: 500px;
+	  width: 40%;
+		/*padding-left: 30px;*/
+	  border: 1px solid #ccc;
+		text-align: center;
+		background-color: #EFEFEF;
+	}
+/*
+	.top-img-1 {
+		margin: 0;
+
+		width: 100%;
+		height: 100%;
+		background: #F2F1F2;
+	}
+
+	.top-img-2 {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		background: #F2F1F2;
+	}*/
+
+.image-link {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
+
+
+p{
+	margin-top: 1px;
+	margin-left: 30px
+	padding:inherit;
+	font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #3E1929;
+
+	text-align: center;
+}
+
+.footer{
+	padding: 15px;
+	margin-top: 100px;
+	clear: both;
+  background-color: #312F2F;
+  height: 40px;
+}
+
+.footer ul {
+	text-align: center;
+}
+
+.footer ul li{
+	display: inline-block;
+  padding: 10px;
+  font-family: "Playfair Display", serif;
+	color: white;
+}
