@@ -60,18 +60,21 @@ body{
 .header{
   /*background-color: #FE5F55;*/
   height: 300px;
-  background-image: url("Images/MEXICAN_CANDY.jpg");
-  background-repeat: repeat-x;
+  background-image: url("Images/header1.jpg");
+  background-size: cover;
+
 
 
 }
 h1{
-  font-size:60px;
-  color: black;
+  font-weight: bold;
+  font-size:75px;
+  color: white;
   text-align: center;
   font-family: "Playfair Display", serif;
   padding-top: 75px;
   padding-bottom: 75px;
+  margin-bottom: 30px;
 
 }
 li{
@@ -82,21 +85,26 @@ li{
 
 ul{
 
-  text-align: center;
+  text-align: left;
 }
 a{
   text-decoration: none;
 
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Playfair Display", serif;
   color: black;
-  text-align: center;
-  border: 2px solid black;
+  /*text-align: center;*/
+  /*border: 2px solid white;*/
+  background-color: none;
+  padding: 3px;
+  margin: 30px;
+}
+ul button:hover{
 
-  margin: 75px;
+  background-color: white;
 }
 .hero{
-  background-color: #777DA7;
+  background-color: #F2CD5D;
   height: 500px;
 }
 .wrapper{
@@ -118,12 +126,19 @@ p{
 
 
 .footer{
-  background-color: #94C9A9;
-  height: 30px;
+  background-color: black;
+  height: 40px;
+}
+
+.footer ul {
+	text-align: center;
 }
 
 .footer ul li{
-  padding: 7.5px;
+	display: inline-block;
+  padding: 10px;
   font-family: "Playfair Display", serif;
+	color: white;
+
 
 }
